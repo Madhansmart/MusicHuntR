@@ -823,7 +823,7 @@ class Section extends Component{
                             </li>
                         </Link>
                             <li>
-                                <div className="row" onClick={this.logout}>
+                                <div className="row">
                                     <div className="mr-auto">
                                     {this.state.isUserActive ?
                                       <div onClick={this.logout}>Logout</div>:
