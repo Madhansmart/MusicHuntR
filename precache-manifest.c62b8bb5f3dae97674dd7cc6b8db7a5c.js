@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b13828c0bc99c9b3b2ee20e3f15c5fc4",
+    "revision": "3b8a262ce437de683a440b29b9dbdeb1",
     "url": "/MusicHuntR/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MusicHuntR/static/css/2.427492a1.chunk.css"
   },
   {
-    "revision": "b16f0d7d5cf7e6273b47",
+    "revision": "91d8558546453f5fa7c0",
     "url": "/MusicHuntR/static/css/main.7bf30941.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MusicHuntR/static/js/2.28c1ecf3.chunk.js"
   },
   {
-    "revision": "b16f0d7d5cf7e6273b47",
-    "url": "/MusicHuntR/static/js/main.41f250ef.chunk.js"
+    "revision": "91d8558546453f5fa7c0",
+    "url": "/MusicHuntR/static/js/main.bff080fb.chunk.js"
   },
   {
     "revision": "907515147ae2a49eda8b",
