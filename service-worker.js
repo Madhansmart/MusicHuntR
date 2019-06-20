@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MusicHuntR/precache-manifest.21bff8f276e2e9feb8ed36738ea1aefa.js"
+  "/MusicHuntR/precache-manifest.d88d97670cdfdc55210dcfea15c17667.js"
 );
 
 self.addEventListener('message', (event) => {
