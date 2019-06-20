@@ -825,10 +825,15 @@ class Section extends Component{
                             <li>
                                 <div className="row">
                                     <div className="mr-auto">
-                                    {this.state.isUserActive ?
-                                      <div onClick={this.logout}>Logout</div>:
-                                      <div data-toggle="modal" data-target="#myModal" onClick={this.loginUser}>Login</div>}</div>
-                                    <div className="ml-auto"><i className="fa fa-sign-out" aria-hidden="true"></i></div>
+                                      {this.state.isUserActive ?
+                                          <div onClick={this.logout}>Logout</div>:
+                                          <div data-toggle="modal" data-target="#myModal" onClick={this.loginUser}>Login</div>}
+                                    </div>
+                                      {
+                                        this.state.isUserActive?
+                                          <div className="ml-auto" onClick={this.logout}><i className="fa fa-sign-out" aria-hidden="true"></i></div>:
+                                          <div className="ml-auto" data-toggle="modal" data-target="#myModal" onClick={this.loginUser}><i className="fa fa-sign-in" aria-hidden="true"></i></div>
+                                      }
                                 </div>
                             </li>
                     </ul>
