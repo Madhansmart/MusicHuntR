@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MusicHunt/static/css/main.bbc145f2.chunk.css",
-    "main.js": "/MusicHunt/static/js/main.6b991261.chunk.js",
-    "main.js.map": "/MusicHunt/static/js/main.6b991261.chunk.js.map",
-    "runtime~main.js": "/MusicHunt/static/js/runtime~main.ecd0133a.js",
-    "runtime~main.js.map": "/MusicHunt/static/js/runtime~main.ecd0133a.js.map",
-    "static/css/2.427492a1.chunk.css": "/MusicHunt/static/css/2.427492a1.chunk.css",
-    "static/js/2.9ec30fae.chunk.js": "/MusicHunt/static/js/2.9ec30fae.chunk.js",
-    "static/js/2.9ec30fae.chunk.js.map": "/MusicHunt/static/js/2.9ec30fae.chunk.js.map",
-    "index.html": "/MusicHunt/index.html",
-    "precache-manifest.6ec1b2e90fce767f5d9ec61b097e5d58.js": "/MusicHunt/precache-manifest.6ec1b2e90fce767f5d9ec61b097e5d58.js",
-    "service-worker.js": "/MusicHunt/service-worker.js",
-    "static/css/2.427492a1.chunk.css.map": "/MusicHunt/static/css/2.427492a1.chunk.css.map",
-    "static/css/main.bbc145f2.chunk.css.map": "/MusicHunt/static/css/main.bbc145f2.chunk.css.map",
-    "static/media/logo.png": "/MusicHunt/static/media/logo.806430aa.png"
+    "main.css": "/MusicHuntR/static/css/main.bbc145f2.chunk.css",
+    "main.js": "/MusicHuntR/static/js/main.0db9f963.chunk.js",
+    "main.js.map": "/MusicHuntR/static/js/main.0db9f963.chunk.js.map",
+    "runtime~main.js": "/MusicHuntR/static/js/runtime~main.f5748913.js",
+    "runtime~main.js.map": "/MusicHuntR/static/js/runtime~main.f5748913.js.map",
+    "static/css/2.427492a1.chunk.css": "/MusicHuntR/static/css/2.427492a1.chunk.css",
+    "static/js/2.b29488cb.chunk.js": "/MusicHuntR/static/js/2.b29488cb.chunk.js",
+    "static/js/2.b29488cb.chunk.js.map": "/MusicHuntR/static/js/2.b29488cb.chunk.js.map",
+    "index.html": "/MusicHuntR/index.html",
+    "precache-manifest.9de5961c56b333ac3c8eed0ee4204280.js": "/MusicHuntR/precache-manifest.9de5961c56b333ac3c8eed0ee4204280.js",
+    "service-worker.js": "/MusicHuntR/service-worker.js",
+    "static/css/2.427492a1.chunk.css.map": "/MusicHuntR/static/css/2.427492a1.chunk.css.map",
+    "static/css/main.bbc145f2.chunk.css.map": "/MusicHuntR/static/css/main.bbc145f2.chunk.css.map",
+    "static/media/logo.png": "/MusicHuntR/static/media/logo.806430aa.png"
   }
 }
