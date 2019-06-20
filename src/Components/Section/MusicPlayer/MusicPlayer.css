@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+  .music-player{
+      width : 85%;
+      margin-top  :20px;
+  }
+  .music-player .music-img{
+    margin-top : 10px;
+  }
+  .music-player .music-title{
+    font-size : 0.9em;
+  }
+  .music-player .music-title-album{
+    display: none;
+  }
+  .music-player .music-play{
+    margin-left : 50px;
+  }
+}

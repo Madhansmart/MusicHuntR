@@ -1,0 +1,36 @@
+.App{
+  position: relative;
+}
+.App .navbar{
+  border-bottom : 1px solid grey;
+}
+.App .navbar .nav-img{
+  width : 50px;
+}
+.App .navbar .navbar-brand{
+  margin-left: 0.5%;
+  padding-top :0.5%;
+  font-size: 1em;
+  font-family: fantasy;
+}
+.App .search-bar{
+  padding-left: 50%;
+}
+.App .section-content-main{
+  margin-top : 67px;
+}
+.App .navbar .collapse .fa-user-circle-o{
+  font-size: 2em;
+}
+.App .react-jinke-music-player-main .music-player-panel{
+      width : 85%;
+      margin-left : 250px;
+}
+.App .navbar-nav .navbar-image{
+  width : 40px;
+}
+@media only screen and (max-width: 768px) {
+  .App .navbar{
+      width : 100%;
+  }
+}

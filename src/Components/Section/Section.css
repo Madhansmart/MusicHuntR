@@ -1,0 +1,330 @@
+.recent, .favourites{
+  margin-top  :2%;
+  border : 1px solid #DFDED6;
+  padding : 3%;
+}
+.section{
+    margin :0;
+}
+.section .section-aside a{
+  text-decoration: none!important;
+}
+.section .section-aside{
+    height: 100%;
+    width: 250px;
+    margin-top : -10px;
+    position: fixed;
+    z-index: 1;
+    left : 0;
+    background : #333a3f;
+}
+.section .section-aside ul {
+    list-style: none;
+    margin : 0;
+    padding : 0;
+    text-align: center;
+}
+.section .section-aside ul li{
+    text-transform: capitalize;
+    padding : 15px 30px;
+    color : white;
+}
+.section .section-aside ul .active{
+    background-color : white;
+    color : black;
+}
+.section .section-content{
+    padding : 0!important;
+    margin-left : 250px;
+}
+.section .section-content .search-bar{
+  margin-top : 80px;
+  margin-left : 200px;
+}
+.section .section-content .search-error-text{
+  margin-left : 30px;
+}
+.section .section-content .section-content-album{
+    padding-top : 20px;
+}
+.album{
+    box-shadow: 1px 1px 1px 1px grey;
+    padding : 1.5%;
+}
+.album-card{
+    display: flex;
+    overflow-x : auto;
+    width  :98%;
+    transition: 0.5s;
+}
+
+.album-card::-webkit-scrollbar {
+    width: 0 !important
+}
+.album-card .card-text{
+    white-space: normal;
+}
+.album-card .card{
+    flex: 0 0 auto;
+    transition: 0.9s;
+}
+.album-card .card{
+    width : 250px;
+    height : auto;
+    margin-left : 55px;
+    margin-top : 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    background : #FBFBFB;
+    user-select: none;
+}
+.album-card .card .add-favourite{
+  transition: 0.7s;
+}
+.album-card .card .add-favourite:active{
+    transform: scale(2);
+}
+.album-card .card .card-fa-heart{
+  position: fixed;
+  top : 87%;
+  left : 90%;
+  font-size: 1.2em;
+}
+.album-card .card .add-album:active{
+    position: absolute;
+}
+.album-card .card-img-top{
+    width : 90%;
+    margin-top : 5%;
+    height : 150px;
+}
+.album-card .card:hover{
+    box-shadow: 0px 1px 2px 1px grey;
+}
+.album-card .card .card-body{
+  padding : 5%;
+}
+.album-card .card .card-body i{
+  float: right;
+  margin-right : 20px;
+  font-size: 1.3em;
+}
+.album-card .card .card-body .card-title{
+  font-size: 1em;
+}
+.album-card .card .fa-heart{
+  color : #FFCD00;
+}
+.album .album-hr{
+    margin-top : 5px;
+}
+.album .cards-slider .create-albm-btn{
+  padding: 0.3%;
+  cursor: pointer;
+  height : 35px;
+  width  :10%;
+}
+.album .cards-slider .arrow-btn .btn{
+    cursor: pointer;
+}
+
+.album .cards-slider .arrow-btn .btn:hover{
+    background-color: white!important;
+    color : black;
+}
+.album .btn-arrow-left, .album .btn-arrow-right{
+    width : 70px;
+}
+.album .btn-arrow-left span, .album .btn-arrow-right span{
+    font-weight: bold;
+}
+.profile{
+  border : 1px solid #DFDED6;
+  padding : 3%;
+  transition: 0.4s;
+}
+.profile:hover{
+  transform: scale(1.01);
+}
+.profile .profile-image{
+  height : 200px;
+}
+.profile .change-image{
+  margin-left  :83px;
+}
+.profile .profile-upload-btn{
+  margin-top : 5%;
+}
+.profile .middle-profile{
+  border-right : 1px solid #DFDED6;
+}
+.profile .profile-update-btn{
+  margin-top : 3%;
+}
+.create-album-main .create-abm-upload{
+  margin-top : 2%;
+}
+.create-album-main{
+    width :100%;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding : 3%;
+}
+.song-content{
+  box-shadow: 1px 1px 1px 1px grey;
+  padding : 1%;
+}
+.song-content .song-header .col{
+  font-size: 1.2em;
+}
+.music-player{
+  padding: 1.5%;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-top  :1.5%;
+  transition: 0.4s;
+}
+.music-player .col{
+  font-family: cursive;
+  transition: 0.5s;
+  font-size: 1.1em;
+  margin-top : 10px;
+}
+.music-player:hover{
+  transform: scale(1.01);
+}
+.music-player .music-img{
+  margin-top : -8px;
+  width  :50px;
+  height : 50px;
+}
+.music-player .fa-heart:active,.music-player .fa-heart-o:active{
+  transform: scale(1.2);
+}
+.music-player .fa-heart{
+  color : #f4c542;
+}
+.play-music-main{
+  padding: 1.5%;
+  border : 1px solid grey;
+  background : grey;
+  margin-left : 250px;
+}
+.loader-box{
+  margin-top : 2%;
+  border : 1px solid #DFDED6;
+  padding : 2%;
+}
+.loader-box .loader-card{
+  width : 220px;
+  height : 230px;
+  border : 2px solid #DFDED6;
+  animation : 2s flash linear infinite;
+}
+@keyframes flash {
+    0%{
+      opacity : 0.5;
+    }
+    50%{
+      opacity: 0.6;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+.loader-box .loader-card .loader-img{
+    margin-top  : 15px;
+    width : 195px;
+    height : 120px;
+    background : #DFDED6;
+}
+.loader-box .loader-card .loader-title{
+    width : 80%;
+    height : 10px;
+    margin : 4%;
+    background : #DFDED6;
+}
+.loader-box .loader-card .loader-fav {
+    width : 90px;
+    height : 15px;
+    margin-right : 10%;
+    background : #DFDED6;
+}
+@media only screen and (max-width: 768px) {
+  .album{
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .album .album-content{
+    width  :115%;
+  }
+  .album-card .card{
+    width : 80%;
+  }
+  .section .section-aside{
+    margin-left : -200px;
+    transition: 0.5s;
+  }
+  .section .section-content{
+    margin-left : 50px;
+    transition: 0.5s;
+  }
+  .section .section-content .search-input{
+    margin-left : -265px;
+    width: 250px;
+    padding : 0;
+  }
+  .section .section-content .search-bar{
+      position: fixed;
+      margin-top : -2px;
+      z-index : 999;
+  }
+  .section .search-bar{
+    padding : 55px;
+    padding-top : 4px!important;
+    padding-right : 0px!important;
+  }
+  .album .cards-slider .create-albm-btn{
+    width : 80px;
+    height : 30px;
+    margin-left : 15px;
+  }
+  .album-card{
+    width : 100%;
+    margin-left : -40px;
+  }
+  .album .btn-arrow-left, .album .btn-arrow-right{
+
+  }
+  .play-music-main{
+    margin-left : 50px;
+    padding: 5%;
+  }
+  .favourites{
+    margin-top : 40px;
+  }
+  .favourites .favourite-title{
+      margin-left : 19px;
+      color : #007bff;
+      font-weight: bold;
+  }
+  .favourites .favourite-count{
+    margin-right : 13px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .profile{
+    margin-top : 40px;
+  }
+  .profile .middle-profile{
+    width : 80%;
+    top : 4px;
+  }
+  .profile .profile-section{
+      position: absolute;
+      top : 610px;
+      text-align: center;
+  }
+  .profile .profile-update-btn{
+    margin-top  :225px;
+  }
+}
